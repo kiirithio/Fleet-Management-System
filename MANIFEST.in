@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include twonkfms *.css
+recursive-include twonkfms *.csv
+recursive-include twonkfms *.html
+recursive-include twonkfms *.ico
+recursive-include twonkfms *.js
+recursive-include twonkfms *.json
+recursive-include twonkfms *.md
+recursive-include twonkfms *.png
+recursive-include twonkfms *.py
+recursive-include twonkfms *.svg
+recursive-include twonkfms *.txt
+recursive-exclude twonkfms *.pyc
