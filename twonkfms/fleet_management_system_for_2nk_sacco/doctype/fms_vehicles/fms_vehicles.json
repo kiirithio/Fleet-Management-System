@@ -1,0 +1,112 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{number_plate)",
+ "creation": "2023-03-01 15:02:20.960205",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "number_plate",
+  "make",
+  "passenger_capacity",
+  "yom",
+  "current_location",
+  "maintenance_cost",
+  "route",
+  "is_published",
+  "assign_driver"
+ ],
+ "fields": [
+  {
+   "fieldname": "number_plate",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Number Plate",
+   "reqd": 1
+  },
+  {
+   "fieldname": "make",
+   "fieldtype": "Select",
+   "label": "Make",
+   "options": "Toyota\nNIssan\nMazda\nMercedes"
+  },
+  {
+   "fieldname": "passenger_capacity",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Passenger Capacity",
+   "options": "14\n11"
+  },
+  {
+   "fieldname": "yom",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "YOM"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Route"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_published",
+   "fieldtype": "Check",
+   "label": "Is Published"
+  },
+  {
+   "fieldname": "assign_driver",
+   "fieldtype": "Link",
+   "label": "Assign Driver",
+   "options": "FMS Driver"
+  },
+  {
+   "fieldname": "current_location",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Current Location",
+   "reqd": 1
+  },
+  {
+   "fieldname": "maintenance_cost",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Maintenance Cost"
+  }
+ ],
+ "has_web_view": 1,
+ "index_web_pages_for_search": 1,
+ "is_published_field": "is_published",
+ "links": [],
+ "modified": "2023-03-06 21:21:39.181937",
+ "modified_by": "Administrator",
+ "module": "FLEET MANAGEMENT SYSTEM FOR 2NK SACCO",
+ "name": "FMS Vehicles",
+ "name_case": "UPPER CASE",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "route": "vehicles",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "number_plate",
+ "track_changes": 1,
+ "track_seen": 1
+}

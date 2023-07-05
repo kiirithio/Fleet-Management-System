@@ -1,0 +1,45 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "FMS Drivers",
+   "width": "Full"
+  },
+  {
+   "chart": "FMS Vehicles",
+   "width": "Full"
+  },
+  {
+   "chart": "FMS Vehicle",
+   "width": "Full"
+  },
+  {
+   "chart": "FMS Route",
+   "width": "Full"
+  },
+  {
+   "chart": "FMS Distance",
+   "width": "Full"
+  },
+  {
+   "chart": "FMS Trips",
+   "width": "Full"
+  },
+  {
+   "chart": "FMS Maintenance Cost",
+   "width": "Full"
+  }
+ ],
+ "creation": "2023-03-05 22:05:27.028064",
+ "dashboard_name": "FMS Drivers",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "modified": "2023-03-06 21:33:05.960225",
+ "modified_by": "Administrator",
+ "module": "FLEET MANAGEMENT SYSTEM FOR 2NK SACCO",
+ "name": "FMS Drivers",
+ "owner": "Administrator"
+}

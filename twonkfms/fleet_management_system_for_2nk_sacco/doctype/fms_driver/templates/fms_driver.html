@@ -1,0 +1,17 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+
+<img src="{{ passport_photo}}" class="rounded-circle" alt="Cinque Terre" style="width: 250px;">
+<table class="table table-hover">
+    <tbody>
+      <tr>
+        <td><h2>First Name : </h2>{{ first_name }}</td>
+        <td>{{last_name}}</td>
+        <td>{{phone_number}}</td>
+      </tr>
+    </tbody>
+  </table>
+{% endblock %}
+
+<!-- this is a sample default web page template -->

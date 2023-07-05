@@ -1,0 +1,136 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{route_name}-{DD}-{MM}-{##}",
+ "creation": "2023-03-04 06:11:16.094218",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "departure_date",
+  "column_break_ygtmo",
+  "route_name",
+  "fare",
+  "fuel",
+  "distance",
+  "column_break_bg1bu",
+  "on_location",
+  "vehicle",
+  "driver",
+  "id_number",
+  "compl",
+  "completed",
+  "revenue"
+ ],
+ "fields": [
+  {
+   "fieldname": "route_name",
+   "fieldtype": "Link",
+   "label": "Route Name",
+   "options": "FMS Routes"
+  },
+  {
+   "fieldname": "driver",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "label": "Driver"
+  },
+  {
+   "fieldname": "vehicle",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Vehicle",
+   "options": "FMS Vehicles"
+  },
+  {
+   "fieldname": "fare",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Fare",
+   "read_only": 1
+  },
+  {
+   "fieldname": "fuel",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Fuel",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "completed",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Completed"
+  },
+  {
+   "fieldname": "distance",
+   "fieldtype": "Float",
+   "label": "Distance (KM)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "id_number",
+   "fieldtype": "Data",
+   "label": "ID Number",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_bg1bu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "revenue",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Revenue"
+  },
+  {
+   "fieldname": "compl",
+   "fieldtype": "HTML",
+   "label": "Compl",
+   "options": "<h4>Mark complete when vehicle arrives</h4>"
+  },
+  {
+   "fieldname": "departure_date",
+   "fieldtype": "Date",
+   "label": "Departure Date"
+  },
+  {
+   "fieldname": "column_break_ygtmo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "on_location",
+   "fieldtype": "Button",
+   "label": "On Location"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-06 21:02:35.919739",
+ "modified_by": "Administrator",
+ "module": "FLEET MANAGEMENT SYSTEM FOR 2NK SACCO",
+ "name": "FMS TImetables",
+ "name_case": "UPPER CASE",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

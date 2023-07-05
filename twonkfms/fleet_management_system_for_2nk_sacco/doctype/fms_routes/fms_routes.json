@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format: {route_name}",
+ "creation": "2023-03-02 16:16:32.225318",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "start",
+  "destination",
+  "get_details",
+  "route_name",
+  "distance",
+  "fare",
+  "fuel"
+ ],
+ "fields": [
+  {
+   "fieldname": "distance",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Distance (KM)"
+  },
+  {
+   "fieldname": "route_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Route Name"
+  },
+  {
+   "fieldname": "fare",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Fare"
+  },
+  {
+   "fieldname": "fuel",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Fuel"
+  },
+  {
+   "fieldname": "destination",
+   "fieldtype": "Data",
+   "label": "Destination"
+  },
+  {
+   "fieldname": "start",
+   "fieldtype": "Data",
+   "label": "Start"
+  },
+  {
+   "default": "0",
+   "fieldname": "get_details",
+   "fieldtype": "Check",
+   "label": "Merge Routes"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-06 20:26:18.917716",
+ "modified_by": "Administrator",
+ "module": "FLEET MANAGEMENT SYSTEM FOR 2NK SACCO",
+ "name": "FMS Routes",
+ "name_case": "Title Case",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
